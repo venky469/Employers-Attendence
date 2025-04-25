@@ -51,9 +51,9 @@ const ForgotPassword = () => {
         </Paper>
       ) : (
         <form onSubmit={formik.handleSubmit}>
-          <Typography variant="body2" sx={{ mb: 3 }}>
+          {/* <Typography variant="body2" sx={{ mb: 3 }}>
             {t("auth.forgotPasswordInstructions")}
-          </Typography>
+          </Typography> */}
 
           <TextField
             margin="normal"

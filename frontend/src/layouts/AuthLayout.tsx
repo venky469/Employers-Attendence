@@ -38,12 +38,12 @@ const AuthLayout = () => {
             borderRadius: 2,
           }}
         >
-          <Typography component="h1" variant="h4" sx={{ mb: 2, fontWeight: "bold", color: "primary.main" }}>
+          <Typography component="h1" variant="h6" sx={{ mb: 2, fontWeight: "bold", color: "primary.main" }}>
             {t("app.name")}
           </Typography>
-          <Typography variant="body2" color="text.secondary" sx={{ mb: 4, textAlign: "center" }}>
+          {/* <Typography variant="body2" color="text.secondary" sx={{ mb: 4, textAlign: "center" }}>
             {t("app.tagline")}
-          </Typography>
+          </Typography> */}
           <Outlet />
         </Paper>
       </Container>

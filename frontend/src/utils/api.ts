@@ -1,14 +1,23 @@
 import axios from "axios"
 import { toast } from "react-toastify"
- const baseURL = "http://localhost:5000/api"  
-// const baseURL = "https://employers-attendence.onrender.com/api" 
+ //const baseURL = "http://localhost:5000/api"  
+//  const baseURL = "https://employers-attendence.onrender.com/api" 
 
+// export const api = axios.create({
+//   baseURL,
+//   headers: {
+//     "Content-Type": "application/json",
+//   },
+// })
+
+
+// Create an Axios instance with the base API URL
 export const api = axios.create({
-  baseURL,
+  baseURL: 'https://employers-attendence.onrender.com/api', // Use environment variables or a hardcoded URL
   headers: {
-    "Content-Type": "application/json",
+    'Content-Type': 'application/json',
   },
-})
+});
 
 // Add a request interceptor to add the auth token to every request
 api.interceptors.request.use(

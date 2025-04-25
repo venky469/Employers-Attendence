@@ -164,7 +164,7 @@ const MainLayout = () => {
             onClick={handleDrawerOpen}
             edge="start"
             sx={{
-              marginRight: 5,
+              marginRight: 0,
               ...(open && { display: "none" }),
             }}
           >

@@ -1,6 +1,6 @@
 {
   "app": {
-    "name": "Labour Attendance System"
+    "name": "Employer Attendance System"
   },
   "common": {
     "error": "is required",

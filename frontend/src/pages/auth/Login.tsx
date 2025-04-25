@@ -142,7 +142,7 @@ const Login = () => {
 
   return (
     <Box sx={{ width: "100%" }}>
-      <Typography component="h1" variant="h5" sx={{ mb: 3, textAlign: "center" }}>
+      <Typography component="h3" variant="h5" sx={{ mb: 3, textAlign: "center" }}>
         {t("auth.login")}
       </Typography>
 
@@ -194,7 +194,7 @@ const Login = () => {
           {t("auth.login")}
         </LoadingButton>
         <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", mt: 2 }}>
-          <Button component={Link} to="/forgot-password" variant="text" size="small">
+          <Button component={Link} to="/" variant="text" size="small">
             {t("auth.forgotPassword")}
           </Button>
           <Button component={Link} to="/register" variant="text" size="small">

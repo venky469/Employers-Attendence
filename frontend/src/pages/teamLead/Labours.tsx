@@ -845,7 +845,7 @@ const Labours = () => {
                         <strong>{t("labour.address")}:</strong> {labour.address}
                       </Typography>
                     )}
- turkeys                    {labour.age && (
+                   {labour.age && (
                       <Typography variant="body2" sx={{ mb: 1, color: "text.secondary" }}>
                         <strong>{t("labour.age")}:</strong> {labour.age}
                       </Typography>

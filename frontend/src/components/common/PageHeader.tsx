@@ -23,7 +23,7 @@ const PageHeader = ({ title, breadcrumbs, action }: PageHeaderProps) => {
   return (
     <Box sx={{ mb: 4 }}>
       <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center", mb: 1 }}>
-        <Typography variant="h4" component="h1" fontWeight="bold">
+        <Typography variant="h6" component="h1" fontWeight="bold">
           {title}
         </Typography>
         {action && (
